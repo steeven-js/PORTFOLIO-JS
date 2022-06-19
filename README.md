@@ -2,12 +2,12 @@
 
 git init
 git add .
-git commit -m "v0.1.8 responsive"
+git commit -m "v0.8"
 git branch -M main
-git remote add origin https://github.com/steeven-js/js-portfolio.git
+git remote add origin https://github.com/steeven-js/PORTFOLIO-JS.git
 git push -u origin main
 
-git remote add origin https://github.com/steeven-js/portfolio.git
+git remote add origin https://github.com/steeven-js/PORTFOLIO-JS.git
 git branch -M main
 git push -u origin main
 

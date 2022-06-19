@@ -126,7 +126,7 @@ span {
 .nom_prenom {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-bottom: 240px;
     /* border: peru 2px solid; */
     flex-wrap: wrap;
     align-items: stretch;
