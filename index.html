@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- CSS DEBUT-->
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/portfolio.css">
@@ -34,18 +35,18 @@
           <div class='menu-button'></div>
         </label>
         <ul class="menu">
-          <li><a href="#">Accueil</a> </li>
-          <li><a href="#">A propos</a> </li>
-          <li><a href="#">Mon parcours</a></li>
-          <li><a href="#">Mes challenges</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#page-1">Accueil</a> </li>
+          <li><a href="#page-2">A propos</a> </li>
+          <li><a href="#page-3">Mon parcours</a></li>
+          <li><a href="#page-4">Mes challenges</a></li>
+          <li><a href="#page-5">Portfolio</a></li>
+          <li><a href="#page-6">Contact</a></li>
         </ul>
     </div>
 </nav>
 
     <!-- Home -->
-<section id="section-home">
+<section id="section-home"id>
     <div class="home-container">
         <article class="salutation-container">
             <div class="salutation-1 text-gradient-1">
@@ -73,7 +74,7 @@
 <section id="section-about">
     <div class="container">
         <div class="titre">
-            <h1>A propos de moi</h1>
+            <a href="#">A propos de moi</a>
         </div>
         <div class="ab-content-1">
             <img src="./Images/Photo-1.jpg">
@@ -444,7 +445,7 @@
                   <label for="lstname">Nom</label>
                   <input type="text" id="fname" name="Nom" placeholder="Votre Nom">
               
-                  <label for="email">Last Name</label>
+                  <label for="email">Adresse Mail</label>
                   <input type="email" id="email" name="email" placeholder="Votre email">
     
                   <label for="Objet">Objet</label>
@@ -461,18 +462,20 @@
     </div>
 </section>
 
+<div class="scroll-up" id="scroll-up" ><i class="fa-solid fa-angles-up"></i></div>
+
 <!-- footer -->
 <footer id="section-footer">
     <div class="footer-container">
         <div class="footer-content">
             <a href="#">JS</a>
-            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/steeven-jacques-1337a9238/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            <a href="https://github.com/steeven-js"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/steeven-jacques-1337a9238/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/steeven-js"><i class="fa-brands fa-github"></i></i></a>
         </div>
     </div>
 </footer>
 
-
+<script src="./scrpit/portfolio.js"></script>
 </body>
 </html>

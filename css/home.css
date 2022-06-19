@@ -31,6 +31,13 @@ html, body {
     font-weight: 200;
     text-align: center;
 }
+.titre a {
+    color: #DEB992;
+    font-size: 3.2rem;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+}
 
 span {
     color: #DEB992;
@@ -449,3 +456,16 @@ span {
 } 
 
 /* FOOTER FIN */
+
+.scroll-up {
+    position: fixed;
+    right: 10.5%;
+    bottom: 10%;
+    cursor: pointer;
+}
+  
+
+  .fa-angles-up {
+    font-size: 40px;
+    color: #DEB992;
+  }

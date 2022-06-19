@@ -1,4 +1,9 @@
 # portfolio
+v0.8 liens
+v0.9 retour vers le haut
+v1 plus de détail mon parcours
+v1.1 plus de détail mes challenges
+v1.2 plus de détail porfolio
 
 git init
 git add .
@@ -11,20 +16,4 @@ git remote add origin https://github.com/steeven-js/PORTFOLIO-JS.git
 git branch -M main
 git push -u origin main
 
-git init
-git add .
-git commit -m "v0.1.7"
-git push
 
-git push --set-upstream origin steeven-js-patch-#
-
-v0.1.3 card mon parcour fini.
-v0.1.4 about 
-v0.1.5 about 
-v0.1.6 mes challenges
-v0.1.7 portfolio
-v0.1.8 responsive
-v0.1.9 contact restylisé
-v0.1.10 plus de détail mon parcours
-v0.1.11 plus de détail mes challenges
-v0.1.12 plus de détail porfolio
