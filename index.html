@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- CSS DEBUT-->
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/mes_challenges.css">
+    <link rel="stylesheet" href="./css/mon_parcours.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/home.css">
+<!-- CSS FIN-->
+    <title>JS | Portfolio</title>
+</head>
+<body>
+
+<!-- navbar -->
+<nav class="top-nav">
+    <div class="nav-container">
+        <a class="logo-desktop" href="#">JS</a>
+
+        <div class="icon-bar">
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/steeven-jacques-1337a9238/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://github.com/steeven-js"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+    
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+          <li><a href="#">Accueil</a> </li>
+          <li><a href="#">A porpos</a> </li>
+          <li><a href="#">Mon parcours</a></li>
+          <li><a href="#">Mes challenges</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Home -->
+<section id="section-home">
+    <div class="home-container">
+        <article class="salutation-container">
+            <div class="salutation-1 text-gradient-1">
+                <p>Bonjour</p>
+            </div>
+            <div class="salutation-2 text-gradient-2">
+                <p>Je m'appelle</p>
+            </div>
+        </article>
+        <article class="nom_prenom">
+            <div class="jacque text-gradient-3">
+                <p>Jacque</p>
+            </div>
+            <div class="s text-gradient-4">
+                <p>S</p>
+            </div>
+            <div class="teeven text-gradient-5">
+                <p>teeven</p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- about -->
+<section id="section-about">
+    <div class="container">
+        <div class="titre">
+            <h1>A propos de moi</h1>
+        </div>
+        <div class="ab-content-1">
+            <img src="./Images/Photo-1.jpg">
+            <div class="ab-content-1-right">
+                <h1 class="objectif"><span>Développeur web</span></h1>
+                <p>L'informatique est l'une de mes plus grande passion, plus précisement le matériel informatique (hardware). </p>
+                <p>Je m'informe constement sur leurs évolutions notement dans le domaine du jeux vidéo. </p>
+                <p>Je m'interesse de plus en plus à l'informatique de gestion. </p>
+                <p>Mon objectif est faire de ma passion mon métier</p>
+            </div>
+        </div>
+        <div class="ab-content-2">
+            <div class="abt-diplome">
+
+                <div class="diplome-titre">
+                    <h1>Diplômes</h1>
+                </div>
+                <div class="diplome-card">
+                    <div class="diplome-1">
+                        <div class="diplome-icone"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="diplome-content">
+                            <h2>BTS HPE</h2>
+                            <h2>Hygiène propreté Environnement</h2>
+                            <p>De 2011 à 2013</p>
+                            <p><span>Lycée Professionnel Jean Joseph Dumas</span></p>
+                            <p>Fort de France</p>
+                        </div>
+                    </div>
+                    <div class="diplome-2">
+                        <div class="diplome-icone"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                        <div class="diplome-content">
+                            <h2>Bac ST2S</h2>
+                            <h2>Sciences sanitaires et sociales</h2>
+                            <p>De 2009 à 2011</p>
+                            <p><span>Lycéee Général et Technologique Joseph Gaillard</span></p>
+                            <p>Fort de France</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="abt-skills">
+
+                <h2>Compétences</h2>
+
+                <div class="skills">
+                    <div class="details">
+                        <img src="./Images/svg/html-1.svg">
+                        <p class="html-skill" >
+                            HTML</p>
+                        <p class="html-skill">90%</p>
+                    </div>
+                    <div class="bar">
+                        <div id="html-bar"></div>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <div class="details">
+                        <img src="./Images/svg/css-3.svg">
+                        <p class="html-skill" >
+                            CSS</p>
+                        <p class="css-skill">85%</p>
+                    </div>
+                    <div class="bar">
+                        <div id="css-bar"></div>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <div class="details">
+                        <img src="./Images/svg/notion-2.svg">
+                        <p class="html-skill" >
+                            Notion</p>
+                        <p class="notion-skills">70%</p>
+                    </div>
+                    <div class="bar">
+                        <div id="notion-bar"></div>
+                    </div>
+                </div>
+
+                <div class="skills">
+                    <div class="details">
+                        <img src="./Images/svg/figma-1.svg">
+                        <p class="html-skill" >
+                            Figma</p>
+                        <p class="figma-skill">65%</p>
+                    </div>
+                    <div class="bar">
+                        <div id="figma-bar"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- mon parcours -->
+<section id="section-mon_parcours">
+    <div class="container">
+        <div class="titre">
+            <h1>Mon parcours</h1>
+        </div>
+
+        <div class="timeline-container">
+            <div class="annee">
+                <div><p>2013 - 2019</p></div>
+                <div><p>2019 - 2021</p></div>
+                <div><p>2022 - En cours</p></div>
+            </div>
+
+            <div class="barre-annee">
+                <div class="a1"><i class="fa fa-star" style="font-size:24px"></i></div>
+                <div class="a2"><i class="fa fa-star" style="font-size:24px"></i></div>
+                <div class="a3"><i class="fa fa-star" style="font-size:24px"></i></div>
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="card">
+                <h1 class="timeline-mobile"><i class="fa fa-star" style="font-size:24px"></i>2013-2019</h1>
+                <div class="card-banner-1">
+                    <img class="banner-img" src='./Images/materiel-cirurgical.jpg'>
+                </div>
+                <div class="card-body">
+                    <div class="blog-1">
+                        <div class="blog-parcours-hastag">
+                            <p class="blog-hashtag">#infections neusocomiales #bloc opératoire</p>
+                        </div>
+                        <div class="blog-parcours-title">
+                            <h2 class="blog-title">Agent de stérilisation</h2>
+                        </div>
+                        <div class="blog-parcours-lieu-parcours">
+                            <p class="blog-lieu-parcours">Clinique Sainte Marie - Schoelcher</p>
+                        </div>
+                    </div>
+                    <p class="blog-descriptif">Assurer le traitement du matériel chirurgical afin d'assurer la maîtrise des infections nosocomiale. Récupérer, trier, laver et sécher le matériel avant la stérilisation. Assurer le bon fonctionnement des autoclaves. Participer à la démarche qualité.</p>
+                </div>
+                <div class="btn-parcours">
+                    <a href="#" class="btn-card" >Plus de détails</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h1 class="timeline-mobile"><i class="fa fa-star" style="font-size:24px"></i>2019 - 2021</h1>
+                <div class="card-banner-1">
+                    <img class="banner-img" src='./Images/pexels-4.jpg'>
+                </div>
+                <div class="card-body">
+                    <div class="blog-1">
+                        <div class="blog-parcours-hastag">
+                            <p class="blog-hashtag">#gestion #informatisation #bloc opératoire</p>
+                        </div>
+                        <div class="blog-parcours-title">
+                            <h2 class="blog-title">Agent logistique</h2>
+                        </div>
+                        <div class="blog-parcours-lieu-parcours">
+                            <p class="blog-lieu-parcours">Clinique Sainte Paul - Fort de France</p>
+                        </div>
+                    </div>
+                    <p class="blog-descriptif">Participer à la gestion du parc des instruments chirurgicaux en assurant le marquage, la conformité et le stockage de ces derniers. Participer à la démarche qualité.</p>
+                </div>
+                <div class="btn-parcours">
+                    <a href="#" class="btn-card" >Plus de détails</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h1 class="timeline-mobile"><i class="fa fa-star" style="font-size:24px"></i>2022 - En cours</h1>
+                <div class="card-banner-1">
+                    <img class="banner-img" src='https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ'>
+                </div>
+                <div class="card-body">
+                    <div class="blog-1">
+                        <div class="blog-parcours-hastag">
+                            <p class="blog-hashtag">#informatique de gestion #algorithmique</p>
+                        </div>
+                        <div class="blog-parcours-title">
+                            <h2 class="blog-title">Développeur web et web mobile</h2>
+                        </div>
+                        <div class="blog-parcours-lieu-parcours">
+                            <p class="blog-lieu-parcours">IMFPA - Fort de France</p>
+                        </div>
+                    </div>
+                    <p class="blog-descriptif">Le développeur logiciel connaît la face cachée du web. Il code, teste, complète un cahier des charges, modélise. Sans lui, point de site de contenu, d’ e-commerce ou d’application.</p>
+                </div>
+                <div class="btn-parcours">
+                    <a href="#" class="btn-card" >Plus de détails</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- mes challenges -->
+<section id="section-mes_challenges">
+    <div class="container">
+        <div class="titre">
+            <h1>Mes challenges</h1>
+        </div>
+
+        <div class="clg-container">
+            <div class="card">
+                <div class="clg-card-banner-1">
+                    <img class="banner-img" src='./Images/challenge/challenge1-NFT preview card component/desktop-preview.jpg'>
+                </div>
+                <div class="clg-card-body">
+                    <div class="clg-blog-1">
+                        <h3 class="clg-blog-title">Challenge 1</h3>
+                        <h3 class="clg-blog-title">NFT preview card component</h3>
+                    </div>
+                    <div class="clg-blog-2">
+                        <p class="clg-blog-2-html clg-blog-2-first">HTML</p>
+                        <p class="clg-blog-2-css">CSS</p>
+                        <p class="clg-blog-2-drt newbie" >1 NEWBIE</p>
+                    </div>
+                    <div class="clg-btn">
+                        <a href="#">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="clg-card-banner-1">
+                    <img class="banner-img" src='./Images/challenge/challenge2-QR code component/desktop-preview.jpg'>
+                </div>
+                <div class="clg-card-body">
+                    <div class="clg-blog-1">
+                        <h3 class="clg-blog-title">Challenge 2</h3>
+                        <h3 class="clg-blog-title">QR code component</h3>
+                    </div>
+                    <div class="clg-blog-2">
+                        <p class="clg-blog-2-html clg-blog-2-first">HTML</p>
+                        <p class="clg-blog-2-css">CSS</p>
+                        <p class="clg-blog-2-drt newbie" >1 NEWBIE</p>
+                    </div>
+                    <div class="clg-btn">
+                        <a href="#">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="clg-card-banner-1">
+                    <img class="banner-img" src='./Images/challenge/challenge3-Travel/Travel.png'>
+                </div>
+                <div class="clg-card-body">
+                    <div class="clg-blog-1">
+                        <h3 class="clg-blog-title">Challenge 3</h3>
+                        <h3 class="clg-blog-title">Travel</h3>
+                    </div>
+                    <div class="clg-blog-2">
+                        <p class="clg-blog-2-html clg-blog-2-first">HTML</p>
+                        <p class="clg-blog-2-css">CSS</p>
+                        <p class="clg-blog-2-drt junior" >2 JUNIOR</p>
+                    </div>
+                    <div class="clg-btn">
+                        <a href="#">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="clg-card-banner-1">
+                    <img class="banner-img" src='./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-preview.jpg'>
+                </div>
+                <div class="clg-card-body">
+                    <div class="clg-blog-1">
+                        <h3 class="clg-blog-title">Challenge 4</h3>
+                        <h3 class="clg-blog-title">Intro section with dropdown navigation</h3>
+                    </div>
+                    <div class="clg-blog-2">
+                        <p class="clg-blog-2-html clg-blog-2-first">HTML</p>
+                        <p class="clg-blog-2-css">CSS</p>
+                        <p class="clg-blog-2-drt junior" >2 JUNIOR</p>
+                    </div>
+                    <div class="clg-blog-3">
+                        <div class="clg-btn">
+                            <a href="#">Plus de détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="clg-card-banner-1">
+                    <img class="banner-img" src='./Images/challenge/challenge5-E-commerce product page/desktop-preview.jpg'>
+                </div>
+                <div class="clg-card-body">
+                    <div class="clg-blog-1">
+                        <h3 class="clg-blog-title">Challenge 5</h3>
+                        <h3 class="clg-blog-title">E-commerce product page</h3>
+                    </div>
+                    <div class="clg-blog-2">
+                        <p class="clg-blog-2-html clg-blog-2-first">HTML</p>
+                        <p class="clg-blog-2-css">CSS</p>
+                        <p class="clg-blog-2-drt intermediate" >3 INTERMEDIAIRE</p>
+                    </div>
+                    <div class="clg-blog-3">
+                       
+                    </div>
+                    <div class="clg-btn">
+                        <a href="#">Plus de détails</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="clg-card-banner-1">
+                    <img class="banner-img" src='./Images/materiel-cirurgical.jpg'>
+                </div>
+                <div class="clg-card-body">
+                    <div class="clg-blog-1">
+                        <div class="clg-blog-1">
+                            <h3 class="clg-blog-title">Challenge 6</h3>
+                            <h3 class="clg-blog-title">En cours</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- portfolio -->
+<section id="section-portfolio">
+    <div class="container">
+        <div class="titre">
+            <h1>Portfolio</h1>
+        </div>
+
+        <div class="ptf-container">
+            <div class="card">
+                <div class="card-banner-1">
+                    <img class="banner-img" src='./Images/portfolio/hotel-bt-preview.png'>
+                </div>
+                <div class="card-body">
+                    <div class="blog-1">
+                        <h2 class="blog-title">Hotel - BT</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-banner-1">
+                    <img class="banner-img" src='./Images/materiel-cirurgical.jpg'>
+                </div>
+                <div class="card-body">
+                    <div class="blog-1">
+                        <h2 class="blog-title">Location de voitures</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact -->
+<section id="section-contact">
+    <div class="container">
+        <div class="titre">
+            <h1>Contact</h1>
+        </div>
+        <div class="ct-content-1">
+            <div class="form-container">
+                <form action="action_page.php">
+              
+                  <label for="lstname">Nom</label>
+                  <input type="text" id="fname" name="Nom" placeholder="Votre Nom">
+              
+                  <label for="email">Last Name</label>
+                  <input type="email" id="email" name="email" placeholder="Votre email">
+    
+                  <label for="Objet">Objet</label>
+                  <input type="text" id="Objet" name="Objet" placeholder="Objet du message">
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+              
+                  <input type="submit" value="Envoyer">
+              
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer id="section-footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <a href="#">JS</a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/steeven-jacques-1337a9238/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://github.com/steeven-js"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

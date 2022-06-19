@@ -1,0 +1,407 @@
+#section-mon_parcours {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* timeline-container debut*/
+
+.annee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.barre-annee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 10px;
+    background-color: #E1F2F7;
+    color: #DEB992;
+}
+
+/* timeline-container fin */
+
+
+/* Card debut */
+.card-container {
+    display: flex;
+}
+
+.card {
+    overflow: hidden;
+    background: white;
+    border-radius: 0.5rem;
+    width: 350px;
+    /* height: 670px; */
+    margin: 1rem;
+    transition: 250ms all ease-in-out;
+}
+
+.timeline-mobile {
+    display: none;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.blog-1 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    /* height: 250px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-hashtag {
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-bottom: #DEB992 1px solid;
+    padding-bottom: 10px;
+}
+
+#section-mon_parcours .blog-parcours-title .blog-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-lieu-parcours {
+    font-size: 0.9rem;
+    color: #DEB992;
+}
+
+.blog-descriptif {
+    height: 150px;
+    border-top: #001f33 1px solid;
+    padding-top: 10px;
+}
+
+.btn-parcours {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn-card {
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background-color: #E1F2F7;
+    color: #001f33;
+}
+
+.btn-card:hover {
+    background-color: #001f33;
+    color: #E1F2F7;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Card Fin*/
+
+.identifiant-1 {
+    border: 1px solid #eb2227;
+}
+.identifiant-2 {
+    border: 1px solid #6522eb;
+}
+.identifiant-3 {
+    border: 1px solid #40eb22;
+}
+.identifiant-4 {
+    border: 1px solid #caeb22;
+}
+.identifiant-5 {
+    border: 1px solid #b31077;
+}
+
+/* mon parcours-mobile fin */
+
+/* ************************************************************************************************************************************ */
+
+/* ***** 1025px - 770px DEBUT Odinateur_portable ***** */
+@media (max-width: 1025px) and (min-width: 770px) {
+
+}
+/* ***** 1025px - 770px FIN Odinateur_portable***** */
+
+/* ***** 769px - 427px DEBUT Tablette ***** */
+@media (max-width: 769px) and (min-width: 427px) {
+        #section-mon_parcours .titre {
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    #section-mon_parcours .titre h1 {
+        font-size: 30px;
+    }
+
+    .timeline-container {
+        display: none;
+    }
+
+    #section-mon_parcours .container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #section-mon_parcours .card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #section-mon_parcours .card {
+        overflow: hidden;
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 60%;
+        transition: 250ms all ease-in-out;
+    }
+
+    #section-mon_parcours .timeline-mobile {
+        display: block;
+        text-align: center;
+        color: #DEB992;
+    }
+
+    #section-mon_parcours .blog-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #section-mon_parcours .blog-title {
+        text-align: center;
+        height: auto;
+    }
+    
+    #section-mon_parcours .blog-lieu-parcours {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #section-mon_parcours .blog-descriptif {
+        height: 100%;
+    }
+}
+/* ***** 769px - 427px FIN Tablette ***** */
+
+/* ***** 426px - 377px DEBUT Mobile-L ***** */
+@media (max-width: 426px) and (min-width: 377px) {
+    #section-mon_parcours .titre {
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    #section-mon_parcours .titre h1 {
+        font-size: 30px;
+    }
+
+    .timeline-container {
+        display: none;
+    }
+
+    #section-mon_parcours .container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #section-mon_parcours .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-mon_parcours .card {
+        overflow: hidden;
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        transition: 250ms all ease-in-out;
+    }
+
+    #section-mon_parcours .timeline-mobile {
+        display: block;
+        text-align: center;
+        color: #DEB992;
+    }
+
+    #section-mon_parcours .blog-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #section-mon_parcours .blog-title {
+        text-align: center;
+        height: auto;
+    }
+    
+    #section-mon_parcours .blog-lieu-parcours {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #section-mon_parcours .blog-descriptif {
+        height: 100%;
+    }
+}
+/* ***** 426px - 377px FIN Mobile-L ***** */
+
+/* ***** 376px - 321px DEBUT Mobile-M ***** */
+@media (max-width: 376px) and (min-width: 321px) {
+    #section-mon_parcours .titre {
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    #section-mon_parcours .titre h1 {
+        font-size: 30px;
+    }
+
+    .timeline-container {
+        display: none;
+    }
+
+    #section-mon_parcours .container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #section-mon_parcours .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-mon_parcours .card {
+        overflow: hidden;
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        transition: 250ms all ease-in-out;
+    }
+
+    #section-mon_parcours .timeline-mobile {
+        display: block;
+        text-align: center;
+        color: #DEB992;
+    }
+
+    #section-mon_parcours .blog-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #section-mon_parcours .blog-title {
+        text-align: center;
+        height: auto;
+    }
+    
+    #section-mon_parcours .blog-lieu-parcours {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #section-mon_parcours .blog-descriptif {
+        height: 100%;
+    }
+}
+/* ***** 375px - 321px FIN Mobile-M ***** */
+
+/* ***** 320px DEBUT Mobile-S ***** */
+@media (max-width: 321px) {
+    #section-mon_parcours .titre {
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    #section-mon_parcours .titre h1 {
+        font-size: 30px;
+    }
+
+    .timeline-container {
+        display: none;
+    }
+
+    #section-mon_parcours .container {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #section-mon_parcours .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-mon_parcours .card {
+        overflow: hidden;
+        background: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        transition: 250ms all ease-in-out;
+    }
+
+    #section-mon_parcours .timeline-mobile {
+        display: block;
+        text-align: center;
+        color: #DEB992;
+    }
+
+    #section-mon_parcours .blog-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #section-mon_parcours .blog-title {
+        text-align: center;
+        height: auto;
+    }
+    
+    #section-mon_parcours .blog-lieu-parcours {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #section-mon_parcours .blog-descriptif {
+        height: 100%;
+    }
+}
+/* ***** 320px FIN ***** */
+
+/* ************************************************************************************************************************************ */
