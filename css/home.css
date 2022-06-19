@@ -22,7 +22,7 @@ html, body {
     align-items: center;
     padding: 10px;
     margin-bottom: 60px;
-    /* border-bottom: #DEB992 1px solid; */
+    border-bottom: #DEB992 1px solid;
 }
 
 .titre h1 {
