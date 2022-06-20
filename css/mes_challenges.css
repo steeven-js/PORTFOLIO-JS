@@ -25,7 +25,8 @@
 }
 
 .clg-card-body {
-    margin: 10px;
+    padding: 10px;
+    height: 150px;
 }
 
 .clg-blog-1 {
