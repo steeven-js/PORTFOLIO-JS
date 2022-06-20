@@ -9,12 +9,20 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    width: 100%;
     scroll-behavior: smooth;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .container {
+    width: 1024px;
     overflow: hidden;
+
+    border: #DEB992 1px solid;
 }
 
 .titre {
@@ -43,4 +51,37 @@ html, body {
 span {
     color: #DEB992;
     font-style: italic;
+}
+
+/*  */
+
+.detail-content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 50vh;
+
+    border: red solid 1px;
+}
+.detail-content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 50vh;
+
+    border: red solid 1px;
+}
+.detail-content-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 50vh;
+
+    border: red solid 1px;
 }
