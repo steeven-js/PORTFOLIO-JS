@@ -200,6 +200,14 @@
 /* ***** 769px - 427px DEBUT Tablette ***** */
 @media (max-width: 769px) and (min-width: 427px) {
 
+    .ab-content-1 img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 400px
+    }
+
     .ab-content-2 {
         display: flex;
         margin-top: 20px;
@@ -256,6 +264,8 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: 300px;
+        padding: 0px 50px;
     }
 
     .ab-content-2 {
@@ -313,8 +323,9 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: 300px;
+        padding: 0px 50px;
     }
-
     .ab-content-2 {
         display: flex;
         margin-top: 0px;
@@ -370,6 +381,8 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        height: 300px;
+        padding: 0px 50px;
     }
 
     .ab-content-2 {

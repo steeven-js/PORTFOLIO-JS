@@ -1,9 +1,8 @@
 # portfolio
 v0.8 retour vers le haut
 v0.9 liens
-v1 plus de détail mon parcours
-v1.1 plus de détail mes challenges
-v1.2 plus de détail porfolio
+v1 plus de détail mes challenges
+v1.1 plus de détail porfolio
 
 git init
 git add .
