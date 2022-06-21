@@ -6,7 +6,7 @@ v1.1 plus de détail porfolio
 
 git init
 git add .
-git commit -m "v0.9"
+git commit -m "v1.1"
 git branch -M main
 git remote add origin https://github.com/steeven-js/PORTFOLIO-JS.git
 git push -u origin main
