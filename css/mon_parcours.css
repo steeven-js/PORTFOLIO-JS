@@ -63,8 +63,7 @@
     height: 120px;
     display: flex;
     flex-direction: column;
-    /* height: 250px; */
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -188,7 +187,7 @@
 
     #section-mon_parcours .blog-1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
     }
@@ -254,7 +253,7 @@
 
     #section-mon_parcours .blog-1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
     }
@@ -318,7 +317,7 @@
 
     #section-mon_parcours .blog-1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
     }
@@ -382,7 +381,7 @@
 
     #section-mon_parcours .blog-1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
     }
@@ -446,7 +445,7 @@
 
     #section-mon_parcours .blog-1 {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
     }
