@@ -10,6 +10,46 @@
     background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 } 
 
+.ct-info {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 15px;
+    align-items: center;
+}
+
+.mail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mail img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.portable {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.portable i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
 #section-contact .container {
     width: 500px;
 }
