@@ -30,7 +30,6 @@ html, body {
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  height: 100vh;
 }
 
 .clg-title {
@@ -272,156 +271,120 @@ font-size: 20px;}
 
 /* ************************************************************************************************************************************ */
 
-/* ***** 1025px - 770px DEBUT Odinateur_portable ***** */
-@media (max-width: 1025px) and (min-width: 770px) {
-  .clg-container {
-      display: grid;
-      grid-template-columns: repeat(2,1fr);
-      row-gap: 10px;
-  }
-}
-/* ***** 1025px - 770px FIN Odinateur_portable***** */
-
-/* ***** 769px - 427px DEBUT Tablette ***** */
-@media (max-width: 769px) and (min-width: 427px) {
-  #section-mes_challenges .titre {
-      margin-bottom: 20px;
-      padding: 0px;
-  }
-
-  #section-mes_challenges .titre h1 {
-      font-size: 30px;
-  }
-
-  #section-mes_challenges .clg-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-
-  #section-mes_challenges .card {
-      overflow: hidden;
-      background: white;
-      border-radius: 0.5rem;
-      width: 60%;
-      margin: 1rem;
-      transition: 250ms all ease-in-out;
-  }
-}
-/* ***** 769px - 427px FIN Tablette ***** */
-
 /* ***** 426px - 377px DEBUT Mobile-L ***** */
 @media (max-width: 426px) and (min-width: 377px) {
-  #section-mes_challenges .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-  }
-  
-  #section-mes_challenges .titre {
-      margin-bottom: 20px;
-      padding: 0px;
+  .clg-title h1 {
+    font-size: 2.2rem;
+ }
+
+.mySlides img {
+  width: 100%;
+  height: 250px;
+ }
+
+.row img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  /* padding: 0px 20px; */
+  padding: 0px 5px;
   }
 
-  #section-mes_challenges .titre h1 {
-      font-size: 30px;
-  }
+  .clg-btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-  #section-mes_challenges .clg-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
+.clg-card-body-code, .clg-card-body-page {
+  overflow: hidden;
+  background: white;
+  border-radius: 0.5rem;
+  width: 150px;
 
-  #section-mes_challenges .card {
-      overflow: hidden;
-      background: white;
-      border-radius: 0.5rem;
-      width: 100%;
-      margin: 1rem;
-      transition: 250ms all ease-in-out;
-  }
-
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+}
 }
 /* ***** 426px - 377px FIN Mobile-L ***** */
 
 /* ***** 376px - 321px DEBUT Mobile-M ***** */
 @media (max-width: 376px) and (min-width: 321px) {
-  #section-mes_challenges .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
+  .clg-title h1 {
+    font-size: 2.2rem;
+ }
+
+.mySlides img {
+  width: 100%;
+  height: 250px;
+ }
+
+.row img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  /* padding: 0px 20px; */
+  padding: 0px 5px;
   }
 
-  #section-mes_challenges .titre {
-      margin-bottom: 20px;
-      padding: 0px;
-  }
+  .clg-btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-  #section-mes_challenges .titre h1 {
-      font-size: 30px;
-  }
+.clg-card-body-code, .clg-card-body-page {
+  overflow: hidden;
+  background: white;
+  border-radius: 0.5rem;
+  width: 150px;
 
-  #section-mes_challenges .clg-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-
-  #section-mes_challenges .card {
-      overflow: hidden;
-      background: white;
-      border-radius: 0.5rem;
-      width: 100%;
-      margin: 1rem;
-      transition: 250ms all ease-in-out;
-  }
-
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+}
 }
 /* ***** 375px - 321px FIN Mobile-M ***** */
 
 /* ***** 320px DEBUT Mobile-S ***** */
 @media (max-width: 321px) {
-  #section-mes_challenges .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
+  .clg-title h1 {
+    font-size: 2.2rem;
+ }
+
+.mySlides img {
+  width: 100%;
+  height: 250px;
+ }
+
+.row img {
+  display: block;
+  width: 100%;
+  height: 50%;
+  /* padding: 0px 20px; */
+  padding: 0px 5px;
   }
 
-  #section-mes_challenges .titre {
-      margin-bottom: 20px;
-      padding: 0px;
-  }
+  .clg-btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-  #section-mes_challenges .titre h1 {
-      font-size: 30px;
-  }
+.clg-card-body-code, .clg-card-body-page {
+  overflow: hidden;
+  background: white;
+  border-radius: 0.5rem;
+  width: 150px;
 
-  #section-mes_challenges .clg-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-
-  #section-mes_challenges .card {
-      overflow: hidden;
-      background: white;
-      border-radius: 0.5rem;
-      width: 100%;
-      margin: 1rem;
-      transition: 250ms all ease-in-out;
-  }
-
+  margin: 1rem;
+  transition: 250ms all ease-in-out;
+}
 }
 /* ***** 320px FIN ***** */
 
