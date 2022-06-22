@@ -22,7 +22,7 @@ html, body {
     overflow: hidden;
     height: 100vh;
 
-    border: 1px solid peru;
+    /* border: 1px solid peru; */
 }
 
 /* ************************************** */
@@ -98,6 +98,12 @@ html, body {
   width: 100%;
   height: 500px;
 }
+
+.nbtxt-color {
+  color: #DEB992;
+  font-weight: bold;
+
+font-size: 20px;}
   
   /* Add a pointer when hovering over the thumbnail images */
 .cursor {
@@ -185,6 +191,27 @@ html, body {
   display: block;
   width: 100%;
   height: 100%;
+  padding: 0px 20px;
+}
+/* row-2 */
+.row-2 {
+  /* border: 1px solid greenyellow; */
+  height: 150px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.row-2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row-2 img {
+  display: block;
+  width: 50%;
+  height: 50px;
   padding: 0px 20px;
 }
   
