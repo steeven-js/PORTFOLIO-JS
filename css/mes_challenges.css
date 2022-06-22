@@ -46,9 +46,13 @@
     margin-right: 10px;
 }
 
+.clg-blog-2-js {
+    margin-left: 10px;
+}
+
 .clg-blog-2-html {color: #6abecd;}
 .clg-blog-2-css {color: #3e54a3;}
-.clg-blog-2-css {color: #3e54a3;}
+.clg-blog-2-js {color: #f1b604;}
 
 .clg-blog-2 .newbie {color: #3e54a3;}
 .clg-blog-2 .junior {color: #aad742;}
