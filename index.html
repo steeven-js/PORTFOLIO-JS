@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- CSS DEBUT-->
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/portfolio.css">
@@ -18,8 +19,8 @@
 </head>
 <body>
 
-<!-- navbar -->
-<nav class="top-nav">
+<!-- Navbar-desktop -->
+<nav id="top-nav">
     <div class="nav-container">
         <a class="logo-desktop" href="#">JS</a>
 
@@ -29,13 +30,9 @@
             <a href="https://github.com/steeven-js"><i class="fa-brands fa-github"></i></a>
         </div>
     
-        <input id="menu-toggle" type="checkbox" />
-        <label class='menu-button-container' for="menu-toggle">
-          <div class='menu-button'></div>
-        </label>
-        <ul class="menu">
-          <li><a href="#section-home">Accueil</a> </li>
-          <li><a href="#section-about">A propos</a> </li>
+        <ul class="top-nav-menu">
+          <li><a href="#section-home">Accueil</a></li>
+          <li><a href="#section-about">A propos</a></li>
           <li><a href="#section-mon_parcours">Mon parcours</a></li>
           <li><a href="#section-mes_challenges">Mes challenges</a></li>
           <li><a href="#section-portfolio">Portfolio</a></li>
@@ -44,7 +41,28 @@
     </div>
 </nav>
 
-    <!-- Home -->
+<!-- Navbar-mobile -->
+<nav id="navBar">
+    <div class="nav-container">
+        <div class="logo">
+            <a class="logo-mobile" href="#">JS</a>
+        </div>
+        <ul class="menu">
+            <li><a class="menuItem" href="#section-home">Accueil</a></li>
+            <li><a class="menuItem" href="#section-about">A propos</a></li>
+            <li><a class="menuItem" href="#section-mon_parcours">Mon parcours</a></li>
+            <li><a class="menuItem" href="#section-mes_challenges">Mes challenges</a></li>
+            <li><a class="menuItem" href="#section-portfolio">Portfolio</a></li>
+            <li><a class="menuItem" href="#section-contact">Contact</a></li>
+        </ul>
+        <button class="hamburger">
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+        </button>
+    </div>
+</nav>
+
+<!-- Home -->
 <section id="section-home">
     <div class="home-container">
         <article class="salutation-container">
@@ -491,5 +509,7 @@
 </footer>
 
 <script src="./scrpit/portfolio.js"></script>
+<script src="./scrpit/navbar.js"></script>
+
 </body>
 </html>
