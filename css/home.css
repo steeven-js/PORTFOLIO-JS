@@ -129,6 +129,7 @@ span {
     position: relative;
     /* border: blue 2px solid; */
     width: 100%;
+    margin-top: 100px;
 }
 /* Salutation Container FIN */
 
@@ -141,7 +142,6 @@ span {
     flex-wrap: wrap;
     align-items: stretch;
     flex-direction: row;
-    margin-top: 100px;
 }
 /* Nom Prenom FIN */
 
@@ -321,22 +321,23 @@ span {
 @media (max-width: 769px) and (min-width: 427px) {
     .salutation-1 p, 
     .salutation-2 p {
-        font-size: 35px;
-        font-weight: 500;
+        font-size: 25px;
+        font-weight: 400;
+        font-style: italic;
     }
 
     #section-home .nom_prenom {
-        margin-top: 80px;
+        margin-top: 100px;
     }
     
     #section-home .s p {
-        font-size: 150px;
+        font-size: 3.5rem;
         font-weight: 500;
     }
     
     #section-home .jacque p,
     #section-home .teeven p {
-        font-size: 55px;
+        font-size: 50px;
         font-weight: 500;
     }
 
@@ -354,8 +355,9 @@ span {
 @media (max-width: 426px) and (min-width: 377px) {
     .salutation-1 p, 
     .salutation-2 p {
-        font-size: 35px;
-        font-weight: 500;
+        font-size: 25px;
+        font-weight: 400;
+        font-style: italic;
     }
 
     #section-home .nom_prenom {
@@ -363,13 +365,13 @@ span {
     }
     
     #section-home .s p {
-        font-size: 100px;
+        font-size: 3.5rem;
         font-weight: 500;
     }
     
     #section-home .jacque p,
     #section-home .teeven p {
-        font-size: 55px;
+        font-size: 40px;
         font-weight: 500;
         padding: 0PX;
     }
@@ -380,8 +382,9 @@ span {
 @media (max-width: 376px) and (min-width: 321px) {
     .salutation-1 p, 
     .salutation-2 p {
-        font-size: 30px;
-        font-weight: 500;
+        font-size: 25px;
+        font-weight: 400;
+        font-style: italic;
     }
 
     #section-home .nom_prenom {
@@ -389,13 +392,13 @@ span {
     }
     
     #section-home .s p {
-        font-size: 50px;
+        font-size: 4.5rem;
         font-weight: 500;
     }
     
     #section-home .jacque p,
     #section-home .teeven p {
-        font-size: 30px;
+        font-size: 2.5rem;
         font-weight: 500;
         padding: 0PX;
     }
@@ -406,8 +409,9 @@ span {
 @media (max-width: 321px) {
     .salutation-1 p, 
     .salutation-2 p {
-        font-size: 30px;
-        font-weight: 500;
+        font-size: 25px;
+        font-weight: 400;
+        font-style: italic;
     }
 
     #section-home .nom_prenom {
@@ -415,13 +419,13 @@ span {
     }
     
     #section-home .s p {
-        font-size: 50px;
+        font-size: 3.5rem;
         font-weight: 500;
     }
     
     #section-home .jacque p,
     #section-home .teeven p {
-        font-size: 30px;
+        font-size: 2.5rem;
         font-weight: 500;
         padding: 0PX;
     }
