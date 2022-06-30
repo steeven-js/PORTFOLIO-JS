@@ -148,12 +148,13 @@
     }
     
     .menuItem {
-        display: block;
-        margin: 2rem 8rem;
-        font-size: 1.3rem;
-        color: #DEB992;
-        text-decoration: none;
-        text-align: center;
+      display: block;
+      margin: 5rem 6rem;
+      font-size: 1.8rem;
+      color: #E1F2F7;
+      text-decoration: none;
+      text-align: center;
+      
     }
       
       
@@ -183,7 +184,9 @@
         color: #DEB992;
         list-style: none;
     
-        background: none;
+        background: #2b5876;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
       
     .showMenu {
