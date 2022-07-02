@@ -10,25 +10,25 @@
     background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 } 
 
-.ct-info {
+#section-contact .ct-info {
     display: flex;
-    justify-content: space-between;
     border-radius: 10px;
     flex-direction: column;
-    height: 100px;
-    margin-bottom: 30px;
     background-color: #fff;
     padding: 15px;
     align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.mail {
+#section-contact .mail {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.mail img {
+#section-contact .mail img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,61 +36,19 @@
     margin-right: 15px;
 }
 
-.portable {
+#section-contact .portable {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-.portable i {
+#section-contact .portable i {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 15px;
 }
-
-#section-contact .container {
-    width: 500px;
-}
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-}
-
-input[type=email]{
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-}
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-}
-  
+ 
 #section-contact .ct-content-1 {
     display: flex;
     justify-content: center;
@@ -134,18 +92,6 @@ input[type=email]{
         width: 100%;
     }
 
-    .ct-info {
-        display: flex;
-        justify-content: space-between;
-        border-radius: 10px;
-        flex-direction: column;
-        height: 100px;
-        margin-bottom: 30px;
-        background-color: #fff;
-        padding: 15px;
-        align-items: center;
-    }
-
 }
 /* ***** 426px - 377px FIN Mobile-L ***** */
 
@@ -164,18 +110,6 @@ input[type=email]{
         width: 100%;
     }
 
-    .ct-info {
-        display: flex;
-        justify-content: space-between;
-        border-radius: 10px;
-        flex-direction: column;
-        height: 100px;
-        margin-bottom: 30px;
-        background-color: #fff;
-        padding: 15px;
-        align-items: center;
-    }
-
 }
 /* ***** 375px - 321px FIN Mobile-M ***** */
 
@@ -192,18 +126,6 @@ input[type=email]{
 
     #section-contact .container {
         width: 100%;
-    }
-
-    .ct-info {
-        display: flex;
-        justify-content: space-between;
-        border-radius: 10px;
-        flex-direction: column;
-        height: 100px;
-        margin-bottom: 30px;
-        background-color: #fff;
-        padding: 15px;
-        align-items: center;
     }
     
 }

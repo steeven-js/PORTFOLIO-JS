@@ -15,6 +15,7 @@ html, body {
 
 .container {
     overflow: hidden;
+    width: 100%;
 }
 
 .titre {
@@ -23,6 +24,7 @@ html, body {
     align-items: center;
     padding: 10px;
     margin-bottom: 60px;
+    width: 100%;
     border-bottom: #DEB992 1px solid;
 }
 
