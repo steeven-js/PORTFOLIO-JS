@@ -171,13 +171,13 @@ font-size: 20px;}
 }
   
 .row {
-  /* border: 1px solid greenyellow; */
-  height: 150px;
-  width: 25px;
-  
+  border: 1px solid greenyellow;
+  /* height: 150px; */
+  /* width: 25px; */
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  row-gap: 10px;
+  grid-template-columns: repeat(4,1fr);
+  /* row-gap: 20px; */
+  align-items: center;
 }
 
 .row:after {
@@ -188,35 +188,17 @@ font-size: 20px;}
 
 .row img {
   display: block;
-  /* width: 100%; */
-  height: 100%;
+  width: 100%;
+  /* height: 100%; */
   padding: 0px 20px;
 }
-/* row-2 */
-.row-2 {
-  height: 150px;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  row-gap: 10PX;
-}
-
-.row-2:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.row-2 img {
-  display: block;
-  height: 50px;
-  padding: 0px 20px;
-}
-  
+ 
   /* Six columns side by side */
 .column {
   display: flex;
   justify-content: flex-start;
-  align-items:center ;
+  align-items: center;
+  height: 100%;
 }
 
 .column-2 {
@@ -227,12 +209,12 @@ font-size: 20px;}
   
   /* Add a transparency effect for thumnbail images */
 .demo {
-    opacity: 0.6;
+  opacity: 0.6;
 }
   
 .active,
 .demo:hover {
-    opacity: 1;
+  opacity: 1;
 }
 /* GALLERIE FIN */
 
@@ -282,12 +264,12 @@ font-size: 20px;}
     font-size: 2.2rem;
  }
 
-.mySlides img {
+  .mySlides img {
   width: 100%;
   height: 250px;
  }
 
-.row img {
+  .row img {
   display: block;
   width: 100%;
   height: 50%;
@@ -301,9 +283,9 @@ font-size: 20px;}
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+  }
 
-.clg-card-body-code, .clg-card-body-page {
+  .clg-card-body-code, .clg-card-body-page {
   overflow: hidden;
   background: white;
   border-radius: 0.5rem;
@@ -311,14 +293,14 @@ font-size: 20px;}
 
   margin: 1rem;
   transition: 250ms all ease-in-out;
-}
+  }
 }
 /* ***** 426px - 377px FIN Mobile-L ***** */
 
 /* ***** 376px - 321px DEBUT Mobile-M ***** */
 @media (max-width: 376px) and (min-width: 321px) {
-    .clg-title h1 {
-      font-size: 2.2rem;
+  .clg-title h1 {
+    font-size: 2.2rem;
   }
 
   .mySlides img {
@@ -332,7 +314,7 @@ font-size: 20px;}
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-}
+  }
 
   .row img {
     display: block;
@@ -340,31 +322,31 @@ font-size: 20px;}
     height: 50%;
     /* padding: 0px 20px; */
     padding: 0px 5px;
-    }
+  } 
 
     .clg-btn {
-      margin-top: 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
     .clg-card-body-code, .clg-card-body-page {
-      overflow: hidden;
-      background: white;
-      border-radius: 0.5rem;
-      width: 150px;
+    overflow: hidden;
+    background: white;
+    border-radius: 0.5rem;
+    width: 150px;
 
-      margin: 1rem;
-      transition: 250ms all ease-in-out;
-    }
+    margin: 1rem;
+    transition: 250ms all ease-in-out;
+  } 
 }
 /* ***** 375px - 321px FIN Mobile-M ***** */
 
 /* ***** 320px DEBUT Mobile-S ***** */
 @media (max-width: 321px) {
-    .clg-title h1 {
+  .clg-title h1 { 
     font-size: 2.2rem;
   }
 
