@@ -13,13 +13,37 @@
     justify-content: center;
 }
 
-.ptf-container .card {
-    width: 350px;
+#section-portfolio  .card {
+    overflow: hidden;
+    background: white;
+    border-radius: 0.5rem;
+    width: 100%;
+    margin: 1rem;
+    transition: 250ms all ease-in-out;
+}
+
+#section-portfolio .banner-img {
+    height: 220px;
+    margin-bottom: 10px;
 }
 
 #section-portfolio .card-body {
     padding: 20px;
-    /* height: 335px; */
+}
+
+#section-portfolio  .clg-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#section-portfolio .clg-btn a {
+    text-decoration: none;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background-color: #E1F2F7;
+    color: #001f33;
 }
 
 /* ************************************************************************************************************************************ */

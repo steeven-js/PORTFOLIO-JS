@@ -15,7 +15,7 @@ html, body {
 
 .container {
     overflow: hidden;
-    width: 100%;
+    width: 1024px; 
 }
 
 .titre {
@@ -26,6 +26,13 @@ html, body {
     margin-bottom: 60px;
     width: 100%;
     border-bottom: #DEB992 1px solid;
+
+    color: #DEB992;
+    font-size: 3.2rem;
+    font-weight: 200;
+    text-align: center;
+
+    margin: 40px 0px;
 }
 
 .titre h1 {
@@ -33,8 +40,6 @@ html, body {
     font-size: 3.2rem;
     font-weight: 200;
     text-align: center;
-
-    margin-top: 40px;
 }
 
 span {

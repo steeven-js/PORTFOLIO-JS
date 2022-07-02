@@ -9,68 +9,76 @@
     background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 } 
 
-.clg-container {
+#section-mes_challenges .card {
+    overflow: hidden;
+    background: white;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    transition: 250ms all ease-in-out;
+}
+
+#section-mes_challenges .clg-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 10px;
 }
 
-.banner-img {
-    height: 256px;
+#section-mes_challenges .banner-img {
+    height: 220px;
     margin-bottom: 10px;
 }
 
-.clg-blog-title {
+#section-mes_challenges .clg-blog-title {
     text-align: center;
 }
 
-.clg-card-body {
+#section-mes_challenges .clg-card-body {
     padding: 10px;
 }
 
-.clg-blog-1 {
+#section-mes_challenges .clg-blog-1 {
     height: 70px;
 }
 
-.clg-blog-2 {
+#section-mes_challenges .clg-blog-2 {
     margin-top: 10px;
     display: flex;
     justify-content: flex-start;
 }
 
-.clg-blog-2 p {
+#section-mes_challenges .clg-blog-2 p {
     font-weight: bold;
 }
 
-.clg-blog-2-first {
+#section-mes_challenges .clg-blog-2-first {
     margin-right: 10px;
 }
 
-.clg-blog-2-js {
+#section-mes_challenges .clg-blog-2-js {
     margin-left: 10px;
 }
 
-.clg-blog-2-html {color: #6abecd;}
-.clg-blog-2-css {color: #3e54a3;}
-.clg-blog-2-js {color: #f1b604;}
+#section-mes_challenges .clg-blog-2-html {color: #6abecd;}
+#section-mes_challenges .clg-blog-2-css {color: #3e54a3;}
+#section-mes_challenges .clg-blog-2-js {color: #f1b604;}
 
-.clg-blog-2 .newbie {color: #3e54a3;}
-.clg-blog-2 .junior {color: #aad742;}
-.clg-blog-2 .intermediate {color: #f1b604;}
+#section-mes_challenges .clg-blog-2 .newbie {color: #3e54a3;}
+#section-mes_challenges .clg-blog-2 .junior {color: #aad742;}
+#section-mes_challenges .clg-blog-2 .intermediate {color: #f1b604;}
 
-.clg-blog-2-drt {
+#section-mes_challenges .clg-blog-2-drt {
     flex: 1;
     text-align: right;
 }
 
-.clg-btn {
+#section-mes_challenges .clg-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.clg-btn a {
+#section-mes_challenges .clg-btn a {
     text-decoration: none;
     padding: 14px 16px;
     border-radius: 10px;
@@ -78,7 +86,7 @@
     color: #001f33;
 }
 
-.clg-btn a:hover {
+#section-mes_challenges #section-mes_challenges .clg-btn a:hover {
     background-color: #001f33;
     color: #E1F2F7;
 }
@@ -87,7 +95,7 @@
 
 /* ***** 1025px - 770px DEBUT Odinateur_portable ***** */
 @media (max-width: 1025px) and (min-width: 770px) {
-    .clg-container {
+    #section-mes_challenges .clg-container {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         row-gap: 10px;
