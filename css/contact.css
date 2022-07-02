@@ -13,7 +13,6 @@
 #section-contact .ct-content {
     display: flex;
     border-radius: 10px;
-    flex-direction: column;
     background-color: #fff;
     padding: 15px;
     align-items: center;
@@ -22,12 +21,17 @@
     margin: 0 auto;
 }
 
-#section-contact .ct-icone {
-
+.ct-icone-phone, .ct-icone-mail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-#section-contact .ct-info {
-    
+.ct-icone-phone, .ct-icone-mail p {
+    color: #1A2980;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
 }
 
 /* ************************************************************************************************************************************ */
