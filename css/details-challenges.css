@@ -26,10 +26,9 @@ html, body {
 
 /* ************************************** */
 
-#challenge-1 {
+#challenge-1, #challenge-2, #challenge-3, #challenge-4, #challenge-5 {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .clg-title {
@@ -93,7 +92,6 @@ html, body {
 }
 
 .mySlides img {
-  /* width: 100%; */
   height: 500px;
 }
 
@@ -126,16 +124,21 @@ font-size: 20px;}
 }
   
 /* Position the "next button" to the right */
+.plusslides {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 25%;
+}
+
 .next {
-    right: 0;
-    top: 40%;
-    border-radius: 3px 0 0 3px;
+  right: 0;
+  top: 50%;
 }
 
 .prev {
-    left: 0;
-    top: 40%;
-    border-radius: 3px 0 0 3px;
+  top: 50%;
+  border-radius: 3px 0 0 3px;
 }
   
 /* On hover, add a black background color with a little bit see-through */
@@ -171,14 +174,15 @@ font-size: 20px;}
 }
   
 .row {
-  border: 1px solid greenyellow;
-  /* height: 150px; */
-  /* width: 25px; */
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  /* row-gap: 20px; */
   align-items: center;
 }
+
+#challenge-1 .row {grid-template-columns: repeat(3,1fr);}
+#challenge-2 .row {grid-template-columns: repeat(4,1fr);}
+#challenge-3 .row {grid-template-columns: repeat(3,1fr);}
+#challenge-4 .row {grid-template-columns: repeat(6,1fr);}
+#challenge-5 .row {grid-template-columns: repeat(5,1fr);}
 
 .row:after {
     content: "";
@@ -189,7 +193,6 @@ font-size: 20px;}
 .row img {
   display: block;
   width: 100%;
-  /* height: 100%; */
   padding: 0px 20px;
 }
  
@@ -227,13 +230,11 @@ font-size: 20px;}
   background: white;
   border-radius: 0.5rem;
   width: 350px;
-  /* height: 670px; */
   margin: 1rem;
   transition: 250ms all ease-in-out;
 } 
 
 .clg-btn {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
