@@ -298,6 +298,32 @@ font-size: 20px;}
 }
 
 /* ************************************************************************************************************************************ */
+/* ***** 769px - 427px DEBUT Tablette ***** */
+@media (max-width: 769px) and (min-width: 427px) {
+  .clg-nav a {
+    margin: 5px;
+    padding: 14px 16px;
+    font-size: 0.7rem;
+  }
+
+  .clg-nav p {
+    display: none;
+  }
+
+  .row {
+    display: block;
+    width: auto;
+  }
+
+  .clg-card-body-code,
+  .clg-card-body-page {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    width: 150px;  
+    margin: 1rem;
+  } 
+}
+/* ***** 769px - 427px FIN Tablette ***** */
 
 /* ***** 426px - 377px DEBUT Mobile-L ***** */
 @media (max-width: 426px) and (min-width: 377px) {
@@ -315,6 +341,14 @@ font-size: 20px;}
     display: block;
     width: auto;
   }
+
+  .clg-card-body-code,
+  .clg-card-body-page {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    width: 150px;  
+    margin: 1rem;
+  } 
 }
 /* ***** 426px - 377px FIN Mobile-L ***** */
 
@@ -337,10 +371,10 @@ font-size: 20px;}
 
   .clg-card-body-code,
   .clg-card-body-page {
-  overflow: hidden;
-  border-radius: 0.5rem;
-
-  margin: 1rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    width: 150px;  
+    margin: 1rem;
   } 
 }
 /* ***** 375px - 321px FIN Mobile-M ***** */
@@ -371,10 +405,10 @@ font-size: 20px;}
 
   .clg-card-body-code,
   .clg-card-body-page {
-  overflow: hidden;
-  border-radius: 0.5rem;
-
-  margin: 1rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    width: 150px;  
+    margin: 1rem;
   } 
 }
 /* ***** 320px FIN ***** */
