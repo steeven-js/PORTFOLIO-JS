@@ -17,30 +17,42 @@
                 <h1>QR code component</h1>
             </div>
 
-            <div class="back-btn">
-                <i class="fa-solid fa-angles-left" onclick="history.go(-1)"></i>
-                <p onclick="history.go(-1)">Mes challenges</p>
-            </div>
+            <nav class="clg-nav">
+                <div class="clg-pre clg-nav-btn"> 
+                    <a href="#"><i class="fa-solid fa-arrow-left"></i><p>Challenge 6</p></a>
+                </div>
+    
+                <div class="clg-nav-btn">
+                    <a onclick="history.go(-1)"><i class="fa-solid fa-arrow-up-from-bracket" onclick="history.go(-1)"></i><p>Retour vers - Mes Challenges</p></a>
+                </div>
+    
+                <div class="clg-next clg-nav-btn">
+                    <a href="./challenge-2.html"><p>Challenge 2</p><i class="fa-solid fa-arrow-right"></i></a> 
+                </div>
+            </nav>
 
             <!-- Container for the image gallery -->
             <div class="glr-container">
                 <!-- GELLERIE DEBUT -->
                 <!-- Full-width images with number text -->
-                <div class="mySlides">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="./Images/challenge/challenge1-QR code component/desktop-preview.jpg">
+
+                <div class="slides-container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="./Images/challenge/challenge1-QR code component/desktop-preview.jpg">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="./Images/challenge/challenge1-QR code component/desktop-design.jpg">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="./Images/challenge/challenge1-QR code component/mobile-design.jpg">
+                    </div>
                 </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="./Images/challenge/challenge1-QR code component/desktop-design.jpg">
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="./Images/challenge/challenge1-QR code component/mobile-design.jpg">
-                </div>
-            
+    
                 <!-- Next and previous buttons -->
                 <div class="plusslides">
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -64,13 +76,15 @@
                     </div>
 
                     <div class="column">
-                        <img class="demo cursor" src="./Images/challenge/challenge1-QR code component/mobile-design.jpg" onclick="currentSlide(3)" alt="Mobile design">
+                        <img class="demo cursor row-img-spc" src="./Images/challenge/challenge1-QR code component/mobile-design.jpg" onclick="currentSlide(3)" alt="Mobile design">
                     </div>
-                    <!-- GELLERIE FIN -->
                 </div>
+
             </div>
 
-            <div class="clg-btn">
+            <!-- GELLERIE FIN -->
+
+            <div class="clg-info-btn">
 
                 <div class="github-code">
                     <div class="clg-card-body-code">
@@ -85,7 +99,10 @@
                 </div>
 
             </div>
+
+            <div class="scroll-up" id="scroll-up" ><i class="fa-solid fa-angles-up"></i></div>
     </section>
-<script src="./scrpit/gellerie.js"></script>    
+<script src="./scrpit/gellerie.js"></script>   
+<script src="./scrpit/portfolio.js"></script> 
 </body>
 </html>

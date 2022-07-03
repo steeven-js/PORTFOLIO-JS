@@ -3,6 +3,7 @@ v0.8 retour vers le haut
 v0.9 liens
 v1 plus de détail mes challenges
 v1.1 plus de détail porfolio
+v1.2 paufinage 1 index
 
 git init
 git add .

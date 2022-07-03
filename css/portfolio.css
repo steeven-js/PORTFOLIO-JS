@@ -8,7 +8,7 @@
     background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 } 
 
-.ptf-container {
+#section-portfolio .ptf-container {
     display: flex;
     justify-content: center;
 }
@@ -28,6 +28,10 @@
 
 #section-portfolio .card-body {
     padding: 20px;
+}
+
+#section-portfolio .blog-title {
+    text-align: center;
 }
 
 #section-portfolio  .clg-btn {
