@@ -105,9 +105,9 @@ html, body {
   
   /* Hide the images by default */
 .slides-container {
-
-
-  border: red 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mySlides {
@@ -310,9 +310,30 @@ font-size: 20px;}
     display: none;
   }
 
+  .slides-container {
+    width: 100%;
+  }
+
+  #challenge-1 .slides-img-mbl{
+    width: 100%;
+    height: 400px;
+  }
+
+  #challenge-1 .slides-img-spc {
+    width: 200px;
+    height: 400px;
+  }
+
   .row {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: auto;
+  }
+
+  .prev, .next {
+    top: -60%;
   }
 
   .clg-card-body-code,
@@ -321,6 +342,7 @@ font-size: 20px;}
     border-radius: 0.5rem;
     width: 150px;  
     margin: 1rem;
+    font-size: 0.8rem;
   } 
 }
 /* ***** 769px - 427px FIN Tablette ***** */
@@ -337,9 +359,30 @@ font-size: 20px;}
     display: none;
   }
 
+  .slides-container {
+    width: 300px;
+  }
+
+  #challenge-1 .slides-img-mbl{
+    width: 300px;
+    height: 300px;
+  }
+
+  #challenge-1 .slides-img-spc {
+    width: 150px;
+    height: 300px;
+  }
+
   .row {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: auto;
+  }
+
+  .prev, .next {
+    top: -60%;
   }
 
   .clg-card-body-code,
@@ -348,6 +391,7 @@ font-size: 20px;}
     border-radius: 0.5rem;
     width: 150px;  
     margin: 1rem;
+    font-size: 0.8rem;
   } 
 }
 /* ***** 426px - 377px FIN Mobile-L ***** */
@@ -364,9 +408,30 @@ font-size: 20px;}
     display: none;
   }
 
+  .slides-container {
+    width: 300px;
+  }
+
+  #challenge-1 .slides-img-mbl{
+    width: 300px;
+    height: 300px;
+  }
+
+  #challenge-1 .slides-img-spc {
+    width: 150px;
+    height: 300px;
+  }
+
   .row {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: auto;
+  }
+
+  .prev, .next {
+    top: -60%;
   }
 
   .clg-card-body-code,
@@ -375,6 +440,7 @@ font-size: 20px;}
     border-radius: 0.5rem;
     width: 150px;  
     margin: 1rem;
+    font-size: 0.8rem;
   } 
 }
 /* ***** 375px - 321px FIN Mobile-M ***** */
@@ -391,16 +457,30 @@ font-size: 20px;}
     display: none;
   }
 
+  .slides-container {
+    width: 300px;
+  }
+
+  #challenge-1 .slides-img-mbl{
+    width: 300px;
+    height: 300px;
+  }
+
+  #challenge-1 .slides-img-spc {
+    width: 150px;
+    height: 300px;
+  }
+
   .row {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: auto;
   }
 
-  .clg-btn {
-    display: flex;
-    flex-direction: column;
-
-    width: 50%;
+  .prev, .next {
+    top: -60%;
   }
 
   .clg-card-body-code,
@@ -409,6 +489,7 @@ font-size: 20px;}
     border-radius: 0.5rem;
     width: 150px;  
     margin: 1rem;
+    font-size: 0.8rem;
   } 
 }
 /* ***** 320px FIN ***** */
