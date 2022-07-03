@@ -335,10 +335,6 @@ font-size: 20px;}
     width: 85px;
   }
 
-  .prev, .next {
-    top: -60%;
-  }
-
   #challenge-1 .row-img-spc{
     width: 50px;
     height: 100px;
@@ -390,10 +386,6 @@ font-size: 20px;}
 
   .row img {
     width: 85px;
-  }
-
-  .prev, .next {
-    top: -60%;
   }
 
   #challenge-1 .row-img-spc{
@@ -449,10 +441,6 @@ font-size: 20px;}
     width: 85px;
   }
 
-  .prev, .next {
-    top: -60%;
-  }
-
   #challenge-1 .row-img-spc{
     width: 50px;
     height: 100px;
@@ -504,10 +492,6 @@ font-size: 20px;}
 
   .row img {
     width: 85px;
-  }
-
-  .prev, .next {
-    top: -60%;
   }
 
   #challenge-1 .row-img-spc{
