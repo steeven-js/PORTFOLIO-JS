@@ -326,14 +326,22 @@ font-size: 20px;}
 
   .row {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
   }
 
+  .row img {
+    width: 85px;
+  }
+
   .prev, .next {
     top: -60%;
+  }
+
+  #challenge-1 .row-img-spc{
+    width: 50px;
+    height: 100px;
   }
 
   .clg-card-body-code,
@@ -360,29 +368,37 @@ font-size: 20px;}
   }
 
   .slides-container {
-    width: 300px;
+    width: 100%;
   }
 
   #challenge-1 .slides-img-mbl{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 400px;
   }
 
   #challenge-1 .slides-img-spc {
-    width: 150px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
   }
 
   .row {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
   }
 
+  .row img {
+    width: 85px;
+  }
+
   .prev, .next {
     top: -60%;
+  }
+
+  #challenge-1 .row-img-spc{
+    width: 50px;
+    height: 100px;
   }
 
   .clg-card-body-code,
@@ -409,29 +425,37 @@ font-size: 20px;}
   }
 
   .slides-container {
-    width: 300px;
+    width: 100%;
   }
 
   #challenge-1 .slides-img-mbl{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 400px;
   }
 
   #challenge-1 .slides-img-spc {
-    width: 150px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
   }
 
   .row {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
   }
 
+  .row img {
+    width: 85px;
+  }
+
   .prev, .next {
     top: -60%;
+  }
+
+  #challenge-1 .row-img-spc{
+    width: 50px;
+    height: 100px;
   }
 
   .clg-card-body-code,
@@ -458,29 +482,37 @@ font-size: 20px;}
   }
 
   .slides-container {
-    width: 300px;
+    width: 100%;
   }
 
   #challenge-1 .slides-img-mbl{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 400px;
   }
 
   #challenge-1 .slides-img-spc {
-    width: 150px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
   }
 
   .row {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
   }
 
+  .row img {
+    width: 85px;
+  }
+
   .prev, .next {
     top: -60%;
+  }
+
+  #challenge-1 .row-img-spc{
+    width: 50px;
+    height: 100px;
   }
 
   .clg-card-body-code,
