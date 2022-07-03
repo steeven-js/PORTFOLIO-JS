@@ -28,6 +28,11 @@
     margin-bottom: 10px;
 }
 
+#section-mes_challenges .clg-card-banner-1 {
+    width: 100%;
+    padding: 10px;
+}
+
 #section-mes_challenges .clg-blog-title {
     text-align: center;
 }
@@ -89,6 +94,11 @@
 #section-mes_challenges #section-mes_challenges .clg-btn a:hover {
     background-color: #001f33;
     color: #E1F2F7;
+}
+
+#section-mes_challenges .clg-card-video {
+    height: 220px;
+    width: 100%;
 }
 
 /* ************************************************************************************************************************************ */

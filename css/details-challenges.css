@@ -248,6 +248,11 @@ html, body {
 .demo:hover {
   opacity: 1;
 }
+
+.clg-video {
+  width: 100%;
+  height: 100%;
+}
 /* GALLERIE FIN */
 
 
