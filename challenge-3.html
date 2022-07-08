@@ -9,90 +9,67 @@
     <title>Challenge 3 | Travel</title>
 </head>
 <body>
-    <section id="challenge-3">
+    <section id="challenge-details">
         <div class="clg-container">
-
-            <div class="clg-title">
-                <h1>Challenge 3</h1>
-                <h1>Travel</h1>
+          <!-- titres -->
+          <div class="clg-title">
+            <h1>Challenge 3</h1>
+            <h1>Travel</h1>
+          </div>
+          <!-- Bottons de naviguation -->
+          <nav class="clg-nav">
+            <div class="clg-pre clg-nav-btn"> 
+                <a href="./challenge-2.html"><i class="fa-solid fa-arrow-left"></i><p>Challenge 3</p></a>
             </div>
-
-            <nav class="clg-nav">
-                <div class="clg-pre clg-nav-btn"> 
-                    <a href="./challenge-2.html"><i class="fa-solid fa-arrow-left"></i><p>Challenge 2</p></a>
-                </div>
-    
-                <div class="clg-nav-btn">
-                    <a href="./index.html#section-mes_challenges"><i class="fa-solid fa-arrow-up-from-bracket"></i><p>Retour vers - Mes Challenges</p></a>
-                </div>
-    
-                <div class="clg-next clg-nav-btn">
-                    <a href="./challenge-4.html"><p>Challenge 4</p><i class="fa-solid fa-arrow-right"></i></a> 
-                </div>
-            </nav>
-
-            <!-- Container for the image gallery -->
-            <div class="glr-container">
-                <!-- GELLERIE DEBUT -->
-                <!-- Full-width images with number text -->
-                <div class="slides-container">
-                    <div class="mySlides">
-                        <div class="numbertext"><span class="nbtxt-color">1/4</span></div>
-                        <img class="slides-img-mbl" src="./Images/challenge/challenge3-Travel/Challenge3_Travel.png">
-                    </div>
-
-                    <div class="mySlides">
-                        <div class="numbertext"><span class="nbtxt-color">2/4</span></div>
-                        <video class="clg-video" autoplay loop muted>
-                            <source src="./Video/Travel-preview-1.mp4" type="video/mp4"> 
-                        </video>
-                    </div>
-                </div>
-
-                <!-- Next and previous buttons -->
-                <div class="plusslides">
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
+  
+            <div class="clg-nav-btn">
+                <a href="./index.html#section-mes_challenges"><i class="fa-solid fa-arrow-up-from-bracket"></i><p>Mes Challenges</p></a>
+            </div>
+  
+            <div class="clg-next clg-nav-btn">
+                <a href="./challenge-4.html"><p>Challenge 4</p><i class="fa-solid fa-arrow-right"></i></a> 
+            </div>
+          </nav>
+          <!-- gallerie -->
+          <div class="container-gallerie">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
             
-                <!-- Image text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
+            <div class="mySlides-container">
+              <div class="mySlides">
+                <div class="numbertext">1 / 1</div>
+                <img src="./Images/challenge/challenge3-Travel/Challenge3_Travel.png">
+              </div>
             
-                <!-- Thumbnail images -->
-                <div class="row">
-
-                    <div class="column">
-                        <img class="demo cursor" src="./Images/challenge/challenge3-Travel/Challenge3_Travel.png" onclick="currentSlide(1)" alt="Preview">
-                    </div>
-
-                    <div class="column">
-                        <img class="demo cursor" src="./Images/challenge/challenge3-Travel/Challenge3_Travel.png" onclick="currentSlide(2)" alt="Preview">
-                    </div>
-
-                </div>
             </div>
-            <!-- GELLERIE FIN -->
-
-            <div class="clg-info-btn">
-
-                <div class="github-code">
-                    <div class="clg-card-body-code">
-                        <a href="https://github.com/steeven-js/Challenge3_Travel">Voir mon code</a>
-                    </div>
-                </div>
-
-                <div class="github-page">
-                    <div class="clg-card-body-page">
-                        <a href="https://steeven-js.github.io/Challenge3_Travel/">Voir mon résultat</a>
-                    </div>
-                </div>
-
+          
+            <div class="caption-container">
+              <p id="caption"></p>
             </div>
-
-            <div class="scroll-up" id="scroll-up" ><i class="fa-solid fa-angles-up"></i></div>
-    </section>
+          
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="./Images/challenge/challenge3-Travel/Challenge3_Travel.png" onclick="currentSlide(1)" alt="Challenge3_Travel">
+              </div>
+            </div>
+          </div>
+          <!-- GELLERIE FIN -->
+          <!-- Info -->
+          <div class="clg-info-btn">
+            <div class="github-code">
+              <div class="clg-card-body-code">
+                <a href="https://github.com/steeven-js/Challenge3_Travel">Voir mon code</a>
+              </div>
+            </div>
+    
+            <div class="github-page">
+              <div class="clg-card-body-page">
+                <a href="https://steeven-js.github.io/Challenge3_Travel/">Voir mon résultat</a>
+              </div>
+            </div>        
+          </div>
+        </div>
+      </section>
 <script src="./scrpit/gellerie.js"></script>    
 <script src="./scrpit/portfolio.js"></script>
 </body>

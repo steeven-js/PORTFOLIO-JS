@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-#section-portfolio  .clg-btn {
+#section-portfolio .clg-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +47,11 @@
     border-radius: 10px;
     background-color: #E1F2F7;
     color: #001f33;
+}
+
+#section-portfolio .clg-btn a:hover {
+    background-color: #001f33;
+    color: #E1F2F7;
 }
 
 /* ************************************************************************************************************************************ */

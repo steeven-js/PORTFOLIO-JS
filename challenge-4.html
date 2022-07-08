@@ -9,124 +9,110 @@
     <title>Challenge 4 | Intro section with dropdown navigation</title>
 </head>
 <body>
-    <section id="challenge-4">
+    <section id="challenge-details">
         <div class="clg-container">
-
-            <div class="clg-title">
-                <h1>Challenge 4</h1>
-                <h1>Intro section with dropdown navigation</h1>
+          <!-- titres -->
+          <div class="clg-title">
+            <h1>Challenge 4</h1>
+            <h1>Intro section with dropdown navigation</h1>
+          </div>
+          <!-- Bottons de naviguation -->
+          <nav class="clg-nav">
+            <div class="clg-pre clg-nav-btn"> 
+                <a href="./challenge-3.html"><i class="fa-solid fa-arrow-left"></i><p>Challenge 3</p></a>
             </div>
-
-            <nav class="clg-nav">
-                <div class="clg-pre clg-nav-btn"> 
-                    <a href="./challenge-3.html"><i class="fa-solid fa-arrow-left"></i><p>Challenge 3</p></a>
-                </div>
-    
-                <div class="clg-nav-btn">
-                    <a href="./index.html#section-mes_challenges"><i class="fa-solid fa-arrow-up-from-bracket"></i><p>Retour vers - Mes Challenges</p></a>
-                </div>
-    
-                <div class="clg-next clg-nav-btn">
-                    <a href="./challenge-5.html"><p>Challenge 5</p><i class="fa-solid fa-arrow-right"></i></a> 
-                </div>
-            </nav>
-
-            <!-- Container for the image gallery -->
-            <div class="glr-container">
-                <!-- GELLERIE DEBUT -->
-                <!-- Full-width images with number text -->
-
-                <div class="slides-container">
-                    <div class="mySlides">
-                        <div class="numbertext"><span class="nbtxt-color">1/6</span></div>
-                        <img class="slides-img-mbl" src="./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-preview.jpg">
-                    </div>
-                
-                    <div class="mySlides">
-                        <div class="numbertext"><span class="nbtxt-color">2/6</span></div>
-                        <img class="slides-img-mbl" src="./Images/challenge/challenge4-Intro section with dropdown navigation/active-states.jpg">
-                    </div>
-                
-                    <div class="mySlides">
-                        <div class="numbertext"><span class="nbtxt-color">3/6</span></div>
-                        <img class="slides-img-mbl" src="./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-design.jpg">
-                    </div>
-    
-                    <div class="mySlides">
-                        <div class="numbertext"><span class="nbtxt-color">4/6</span></div>
-                        <img class="slides-img-spc" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-design.jpg">
-                    </div>
-                
-                    <div class="mySlides">
-                        <div class="numbertext">5 / 5</div>
-                        <img class="slides-img-spc" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-menu-collapsed.jpg">
-                    </div>
-                
-                    <div class="mySlides">
-                        <div class="numbertext">6 / 6</div>
-                        <img class="slides-img-spc" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-menu-expanded.jpg">
-                    </div>
-                </div>
-
-                <!-- Next and previous buttons -->
-                <div class="plusslides">
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
+  
+            <div class="clg-nav-btn">
+                <a href="./index.html#section-mes_challenges"><i class="fa-solid fa-arrow-up-from-bracket"></i><p>Mes Challenges</p></a>
+            </div>
+  
+            <div class="clg-next clg-nav-btn">
+                <a href="./challenge-5.html"><p>Challenge 5</p><i class="fa-solid fa-arrow-right"></i></a> 
+            </div>
+          </nav>
+          <!-- gallerie -->
+          <div class="container-gallerie">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
             
-                <!-- Image text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
+            <div class="mySlides-container">
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="./Images/challenge/challenge4-Intro section with dropdown navigation/active-states.jpg">
+              </div>
             
-                <!-- Thumbnail images -->
-                <div class="row">
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-design.jpg">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-preview.jpg">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-design.jpg">
+              </div>
 
-                    <div class="column">
-                        <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-preview.jpg" onclick="currentSlide(1)" alt="Preview">
-                    </div>
+              <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-menu-collapsed.jpg">
+              </div>
 
-                    <div class="column">
-                        <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/active-states.jpg"  onclick="currentSlide(2)" alt="Active states">
-                    </div>
-
-                    <div class="column">
-                        <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-design.jpg" onclick="currentSlide(3)" alt="Desktop design">
-                    </div>
-
-                    <div class="column">
-                        <img class="demo cursor row-img-spc" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-design.jpg" onclick="currentSlide(4)" alt="Mobile design">
-                    </div>
-
-                    <div class="column">
-                        <img class="demo cursor row-img-spc" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-menu-collapsed.jpg"  onclick="currentSlide(5)" alt="Mobile menu collapsed">
-                    </div>
-
-                    <div class="column">
-                        <img class="demo cursor row-img-spc" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-menu-expanded.jpg" onclick="currentSlide(6)" alt="Mobile menu expanded">
-                    </div>
-                </div>
+              <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-menu-expanded.jpg">
+              </div>
             </div>
-            <!-- GELLERIE FIN -->
-
-            <div class="clg-info-btn">
-
-                <div class="github-code">
-                    <div class="clg-card-body-code">
-                        <a href="https://github.com/steeven-js/Challenge4-Intro-section-with-dropdown-navigation">Voir mon code</a>
-                    </div>
-                </div>
-
-                <div class="github-page">
-                    <div class="clg-card-body-page">
-                        <a href="https://steeven-js.github.io/Challenge4-Intro-section-with-dropdown-navigation/">Voir mon résultat</a>
-                    </div>
-                </div>
-
+          
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/active-states.jpg"onclick="currentSlide(1)" alt="active-states">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-design.jpg"onclick="currentSlide(2)" alt="desktop-design">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/desktop-preview.jpg" onclick="currentSlide(3)" alt="desktop-preview">
+              </div>
             </div>
 
-            <div class="scroll-up" id="scroll-up" ><i class="fa-solid fa-angles-up"></i></div>
-    </section>
+            <div class="row-2">
+              <div class="column">
+                <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-design.jpg" onclick="currentSlide(4)" alt="mobile-design">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-menu-collapsed.jpg" onclick="currentSlide(5)" alt="mobile-menu-collapsed">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="./Images/challenge/challenge4-Intro section with dropdown navigation/mobile-menu-expanded.jpg" onclick="currentSlide(6)" alt="mobile-menu-expanded">
+              </div>
+            </div>
+
+          </div>
+          <!-- GELLERIE FIN -->
+          <!-- Info -->
+          <div class="clg-info-btn">
+            <div class="github-code">
+              <div class="clg-card-body-code">
+                <a href="https://github.com/steeven-js/Challenge4-Intro-section-with-dropdown-navigation">Voir mon code</a>
+              </div>
+            </div>
+    
+            <div class="github-page">
+              <div class="clg-card-body-page">
+                <a href="https://steeven-js.github.io/Challenge4-Intro-section-with-dropdown-navigation/">Voir mon résultat</a>
+              </div>
+            </div>        
+          </div>
+        </div>
+      </section>
 <script src="./scrpit/gellerie.js"></script>    
 <script src="./scrpit/portfolio.js"></script>
 </body>
