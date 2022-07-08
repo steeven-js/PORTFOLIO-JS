@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/details-portfolio.css">
+    <title>Portfolio 3 | Prochainement</title>
+</head>
+<body>
+    <section id="portfolio-details">
+        <div class="ptf-container">
+          <!-- titres -->
+          <div class="ptf-title">
+            <h1>Portfolio 3</h1>
+            <h1>Prochainement</h1>
+          </div>
+          <!-- Bottons de naviguation -->
+          <nav class="ptf-nav">
+            <div class="ptf-pre ptf-nav-btn"> 
+                <a href="./portfolio-2.html"><i class="fa-solid fa-arrow-left"></i><p>Portfolio 2</p></a>
+            </div>
+  
+            <div class="ptf-nav-btn">
+                <a href="./index.html#section-portfolio"><i class="fa-solid fa-arrow-up-from-bracket"></i><p>Mes Portfolio</p></a>
+            </div>
+  
+            <div class="ptf-pre ptf-nav-btn"> 
+              <a href="./portfolio-1.html"><i class="fa-solid fa-arrow-left"></i><p>Portfolio 1</p></a>
+          </div>
+          </nav>
+          <!-- gallerie -->
+          <div class="container-gallerie">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            <div class="mySlides-container">
+              <div class="mySlides">
+                <div class="numbertext">1 / 1</div>
+                <img src="./Images/challenge/challenge3-Travel/Challenge3_Travel.png">
+              </div>
+            
+            </div>
+          
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          
+            <div class="row">
+              <div class="column">
+                <img class="demo cursor" src="./Images/challenge/challenge3-Travel/Challenge3_Travel.png" onclick="currentSlide(1)" alt="Challenge3_Travel">
+              </div>
+            </div>
+          </div>
+          <!-- GELLERIE FIN -->
+          <!-- Info -->
+          <div class="ptf-info-btn">
+            <div class="github-code">
+              <div class="ptf-card-body-code">
+                <a href="https://github.com/steeven-js/Challenge3_Travel">Voir mon code</a>
+              </div>
+            </div>
+    
+            <div class="github-page">
+              <div class="ptf-card-body-page">
+                <a href="https://steeven-js.github.io/Challenge3_Travel/">Voir mon résultat</a>
+              </div>
+            </div>        
+          </div>
+        </div>
+      </section>
+<script src="./scrpit/gellerie.js"></script>    
+<script src="./scrpit/portfolio.js"></script>
+</body>
+</html>
