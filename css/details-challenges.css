@@ -349,10 +349,10 @@ img {
 
 /* ***** 376px - 321px DEBUT Mobile-M ***** */
 @media (max-width: 376px) and (min-width: 321px) {
-  /* #challenge-details .clg-container {
+  #challenge-details .clg-container {
     max-width: 100%;
     
-  } */
+  }
 
   #challenge-details .container-gallerie {
     width: 100%;
