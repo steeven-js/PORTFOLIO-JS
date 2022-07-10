@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-#section-portfolio  .card {
+#section-portfolio .card {
     overflow: hidden;
     background: white;
     border-radius: 0.5rem;
@@ -24,6 +24,10 @@
 
 #section-portfolio .banner-img {
     height: 300px;
+}
+
+#section-portfolio .blog-1{
+    height: 100px;
 }
 
 #section-portfolio .card-body {
