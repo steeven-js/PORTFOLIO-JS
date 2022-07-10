@@ -27,7 +27,8 @@ img {
     vertical-align: middle;
 }
   
-  /* Position the image container (needed to position the left and right arrows) */
+/* Gallerie début */
+/* Position the image container (needed to position the left and right arrows) */
 #challenge-details .clg-container {
   max-width: 600px;
 
@@ -143,17 +144,11 @@ img {
 }
   
   /* Container for image text */
-  #challenge-details  .caption-container {
+#challenge-details  .caption-container {
   text-align: center;
   background-color: #222;
   color: white;
   width: 100%;
-}
-  
-#challenge-details .row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
   
   /* Six columns side by side */
@@ -171,7 +166,7 @@ img {
   opacity: 1;
 }
 
-#challenge-details .row,
+#challenge-details .row-1,
 #challenge-details .row-2,
 #challenge-details .row-3 {
   display: flex;
@@ -179,11 +174,12 @@ img {
   align-items: flex-start;
 }
 
-#challenge-details .row img,
+#challenge-details .row-1 img,
 #challenge-details .row-2 img,
 #challenge-details .row-3 img {
   width: 80px;
 }
+/* Gallerie fin */
 
 /* LIENS Avant la gallerie*/
 
