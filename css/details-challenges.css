@@ -311,7 +311,9 @@ img {
     height: 50px;
   }
 
-  #challenge-details .row {
+  #challenge-details .row-1,
+  #challenge-details .row-2,
+  #challenge-details .row-3 {
     display: none;
   }
 }
@@ -341,7 +343,9 @@ img {
     height: 50px;
   }
 
-  #challenge-details .row {
+  #challenge-details .row-1,
+  #challenge-details .row-2,
+  #challenge-details .row-3 {
     display: none;
   }
 }
@@ -371,7 +375,9 @@ img {
     height: 50px;
   }
 
-  #challenge-details .row {
+  #challenge-details .row-1,
+  #challenge-details .row-2,
+  #challenge-details .row-3 {
     display: none;
   }
 }
@@ -401,7 +407,9 @@ img {
     height: 50px;
   }
 
-  #challenge-details .row {
+  #challenge-details .row-1,
+  #challenge-details .row-2,
+  #challenge-details .row-3 {
     display: none;
   }
 
@@ -410,22 +418,3 @@ img {
 
 /* ************************************************************************************************************************************ */
 
-@media (max-width: 728px)  {
-  /* .container-gallerie {
-    width: 400px;
-} */
-
-.row {
-  display: none;
-}
-}
-
-@media (max-width: 425px)  {
-  /* .container-gallerie {
-    width: 300px;
-} */
-
-.row {
-  display: none;
-}
-}
