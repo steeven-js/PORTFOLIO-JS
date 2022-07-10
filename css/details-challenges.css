@@ -41,7 +41,7 @@ img {
   margin: 0 auto;
 }
 
-#challenge-details  .clg-title {
+#challenge-details .clg-title {
   padding: 10px;
   margin-bottom: 20px;
   border-bottom: #DEB992 1px solid;
@@ -67,7 +67,7 @@ img {
   margin: 0 auto;
 }
 
-#challenge-details  .mySlides-container {
+#challenge-details .mySlides-container {
   display: flex;
   justify-content: center;
   align-items: center;
