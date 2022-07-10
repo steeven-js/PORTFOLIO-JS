@@ -350,8 +350,8 @@ img {
 /* ***** 376px - 321px DEBUT Mobile-M ***** */
 @media (max-width: 376px) and (min-width: 321px) {
   #challenge-details .clg-container {
-    max-width: 300px;
-    overflow: hidden;
+    max-width: 100%;
+    /* overflow: hidden; */
   }
 
   #challenge-details .container-gallerie {
