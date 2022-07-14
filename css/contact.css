@@ -23,18 +23,33 @@
 }
 
 #section-contact .ct-icone-phone, 
-#section-contact .ct-icone-mail {
+#section-contact .ct-icone-mail,
+#section-contact .ct-cv {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-#section-contact .ct-icone-phone, 
-#section-contact .ct-icone-mail p {
+#section-contact .ct-icone-phone p, 
+#section-contact .ct-icone-mail p,
+#section-contact .ct-cv p {
     color: #1A2980;
     font-size: 1.3rem;
     font-style: italic;
     font-weight: 500;
+}
+
+#section-contact .ct-cv a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#section-contact .ct-cv img {
+    width: 100px;
+    padding-right: 10px;
 }
 
 /* ************************************************************************************************************************************ */

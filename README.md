@@ -7,7 +7,7 @@ v1.2 paufinage 1 index
 
 git init
 git add .
-git commit -m "v1.2"
+git commit -m "v1.3"
 git branch -M main
 git remote add origin https://github.com/steeven-js/PORTFOLIO-JS.git
 git push -u origin main
