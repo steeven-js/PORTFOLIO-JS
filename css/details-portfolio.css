@@ -185,6 +185,10 @@ img {
   width: 80px;
 }
 
+#portfolio-details .clg-card-video {
+  height: 100%;
+  width: 100%;
+}
 /* LIENS Avant la gallerie*/
 
 #portfolio-details .ptf-nav {
