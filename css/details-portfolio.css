@@ -174,9 +174,10 @@ img {
 #portfolio-details .row,
 #portfolio-details.row-2,
 #portfolio-details .row-3 {
-  display: flex;
+  display: none;
+  /* display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start; */
 }
 
 #portfolio-details .row img,
