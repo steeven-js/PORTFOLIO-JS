@@ -335,7 +335,7 @@ img {
   width: 100%;
   }
 
-  #portfolio-details.ptf-nav p {
+  #portfolio-details .ptf-nav p {
     display: none;
   }
 
