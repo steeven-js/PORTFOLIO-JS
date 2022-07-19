@@ -87,6 +87,7 @@ img {
   #challenge-details .mySlides img {
   height: 100%;
   width: 100%;
+  object-fit: fill;
 }
   
   /* Add a pointer when hovering over the thumbnail images */
