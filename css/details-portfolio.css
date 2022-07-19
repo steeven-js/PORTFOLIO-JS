@@ -294,14 +294,14 @@ img {
 
 /* ***** 769px - 427px DEBUT Tablette S***** */
 @media (max-width: 769px) and (min-width: 427px) {
-  /* #portfolio-details .ptf-container {
-    width: 300px;
+  #portfolio-details .ptf-container {
+    width: 100%;
     overflow: hidden;
   }
 
   #portfolio-details .container-gallerie {
   width: 100%;
-  } */
+  }
 
   #portfolio-details .ptf-nav p {
     display: none;
@@ -326,14 +326,14 @@ img {
 
 /* ***** 426px - 377px DEBUT Mobile-L ***** */
 @media (max-width: 426px) and (min-width: 377px) {
-  /* #portfolio-details .ptf-container {
-    width: 300px;
+  #portfolio-details .ptf-container {
+    width: 100%;
     overflow: hidden;
   }
 
   #portfolio-details .container-gallerie {
   width: 100%;
-  } */
+  }
 
   #portfolio-details .ptf-nav p {
     display: none;
@@ -358,14 +358,14 @@ img {
 
 /* ***** 376px - 321px DEBUT Mobile-M ***** */
 @media (max-width: 376px) and (min-width: 321px) {
-  /* #portfolio-details .ptf-container {
-    max-width: 300px;
+  #portfolio-details .ptf-container {
+    width: 100%;
     overflow: hidden;
   }
 
   #portfolio-details .container-gallerie {
     width: 100%;
-  } */
+  }
 
   #portfolio-details .ptf-nav p {
     display: none;
@@ -390,14 +390,14 @@ img {
 
 /* ***** 320px DEBUT Mobile-S ***** */
 @media (max-width: 321px) {
-  /* #portfolio-details .ptf-container {
-    max-width: 300px;
+  #portfolio-details .ptf-container {
+    width: 100%;
     overflow: hidden;
-  } */
+  }
 
-  /* #portfolio-details .container-gallerie {
+  #portfolio-details .container-gallerie {
   width: 100%;
-  } */
+  }
 
   #portfolio-details .ptf-nav p {
     display: none;
