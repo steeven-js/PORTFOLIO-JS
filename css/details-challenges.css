@@ -287,7 +287,7 @@ img {
 /* ***** 769px - 427px DEBUT Tablette S***** */
 @media (max-width: 769px) and (min-width: 427px) {
   #challenge-details .clg-container {
-    /* width: 300px; */
+    width: 100%;
     overflow: hidden;
   }
 
@@ -319,7 +319,7 @@ img {
 /* ***** 426px - 377px DEBUT Mobile-L ***** */
 @media (max-width: 426px) and (min-width: 377px) {
   #challenge-details .clg-container {
-    /* width: 300px; */
+    width: 100%;
     overflow: hidden;
   }
 
