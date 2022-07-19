@@ -17,6 +17,10 @@
     transition: 250ms all ease-in-out;
 }
 
+#section-mes_challenges .card:hover {
+    transform: scale(1.05);
+}
+
 #section-mes_challenges .clg-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -139,6 +143,10 @@
         margin: 1rem;
         transition: 250ms all ease-in-out;
     }
+
+    #section-mes_challenges .card:hover {
+        transform: scale(1);
+    }
 }
 /* ***** 769px - 427px FIN Tablette ***** */
 
@@ -175,6 +183,10 @@
         width: 100%;
         margin: 1rem;
         transition: 250ms all ease-in-out;
+    }
+
+    #section-mes_challenges .card:hover {
+        transform: scale(1.05);
     }
 
 }
@@ -215,6 +227,10 @@
         transition: 250ms all ease-in-out;
     }
 
+    #section-mes_challenges .card:hover {
+        transform: scale(1.05);
+    }
+
 }
 /* ***** 375px - 321px FIN Mobile-M ***** */
 
@@ -251,6 +267,10 @@
         width: 100%;
         margin: 1rem;
         transition: 250ms all ease-in-out;
+    }
+
+    #section-mes_challenges .card:hover {
+        transform: scale(1.05);
     }
 
 }

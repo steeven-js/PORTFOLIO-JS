@@ -81,24 +81,24 @@
     height: 80px;
 }
 
-.blog-lieu-parcours {
+#section-mon_parcours .blog-lieu-parcours {
     font-size: 0.9rem;
     color: #DEB992;
 }
 
-.blog-descriptif {
+#section-mon_parcours .blog-descriptif {
     height: 150px;
     border-top: #001f33 1px solid;
     padding-top: 10px;
 }
 
-.btn-parcours {
+#section-mon_parcours .btn-parcours {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
-.btn-card {
+#section-mon_parcours .btn-card {
     text-decoration: none;
     display: block;
     padding: 14px 16px;
@@ -107,12 +107,12 @@
     color: #001f33;
 }
 
-.btn-card:hover {
+#section-mon_parcours .btn-card:hover {
     background-color: #001f33;
     color: #E1F2F7;
 }
 
-.card:hover {
+#section-mon_parcours .card:hover {
     transform: scale(1.05);
 }
 
@@ -196,6 +196,10 @@
         height: 100%;
     }
 
+    #section-mon_parcours .card:hover {
+        transform: scale(1);
+    }
+
 }
 /* ***** 1025px - 770px FIN Odinateur_portable***** */
 
@@ -250,6 +254,10 @@
     #section-mon_parcours .blog-descriptif {
         height: 100%;
     }
+
+    #section-mon_parcours .card:hover {
+        transform: scale(1);
+    }
 }
 /* ***** 769px - 427px FIN Tablette ***** */
 
@@ -303,6 +311,10 @@
     #section-mon_parcours .blog-descriptif {
         height: 100%;
     }
+
+    #section-mon_parcours .card:hover {
+        transform: scale(1);
+    }
 }
 /* ***** 426px - 377px FIN Mobile-L ***** */
 
@@ -355,6 +367,10 @@
 
     #section-mon_parcours .blog-descriptif {
         height: 100%;
+    }
+
+    #section-mon_parcours .card:hover {
+        transform: scale(1);
     }
 }
 /* ***** 375px - 321px FIN Mobile-M ***** */
@@ -420,6 +436,10 @@
 
     #section-mon_parcours .blog-descriptif {
         height: 100%;
+    }
+
+    #section-mon_parcours .card:hover {
+        transform: scale(1);
     }
 }
 /* ***** 320px FIN ***** */
