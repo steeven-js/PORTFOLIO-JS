@@ -30,7 +30,7 @@ img {
 /* Gallerie début */
 /* Position the image container (needed to position the left and right arrows) */
 #challenge-details .clg-container {
-  max-width: 600px;
+  /* max-width: 600px; */
 
   position: relative;
   display: flex;
@@ -57,7 +57,7 @@ img {
 }
 
 #challenge-details .container-gallerie {
-  width: 500px;
+  /* width: 500px; */
 
   position: relative;
   display: flex;
