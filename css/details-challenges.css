@@ -30,7 +30,7 @@ img {
 /* Gallerie début */
 /* Position the image container (needed to position the left and right arrows) */
 #challenge-details .clg-container {
-  /* max-width: 600px; */
+  max-width: 600px;
 
   position: relative;
   display: flex;
@@ -57,7 +57,7 @@ img {
 }
 
 #challenge-details .container-gallerie {
-  /* width: 500px; */
+  width: 500px;
 
   position: relative;
   display: flex;
@@ -287,7 +287,7 @@ img {
 /* ***** 769px - 427px DEBUT Tablette S***** */
 @media (max-width: 769px) and (min-width: 427px) {
   #challenge-details .clg-container {
-    width: 300px;
+    /* width: 300px; */
     overflow: hidden;
   }
 
@@ -319,7 +319,7 @@ img {
 /* ***** 426px - 377px DEBUT Mobile-L ***** */
 @media (max-width: 426px) and (min-width: 377px) {
   #challenge-details .clg-container {
-    width: 300px;
+    /* width: 300px; */
     overflow: hidden;
   }
 
