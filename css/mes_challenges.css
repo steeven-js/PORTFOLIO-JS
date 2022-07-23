@@ -145,7 +145,7 @@
     }
 
     #section-mes_challenges .card:hover {
-        transform: scale(1);
+        transform: none;
     }
 }
 /* ***** 769px - 427px FIN Tablette ***** */
@@ -186,7 +186,7 @@
     }
 
     #section-mes_challenges .card:hover {
-        transform: scale(1.05);
+        transform: none;
     }
 
 }
@@ -228,7 +228,7 @@
     }
 
     #section-mes_challenges .card:hover {
-        transform: scale(1.05);
+        transform: none;
     }
 
 }
@@ -270,7 +270,7 @@
     }
 
     #section-mes_challenges .card:hover {
-        transform: scale(1.05);
+        transform: none;
     }
 
 }
